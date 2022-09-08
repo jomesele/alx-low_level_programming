@@ -5,6 +5,7 @@
  * @filedes: int start
  * @*buf: char buffer
  * @nbyte: no
+ * @buff: buffer
  */
 int write(int filedes, const char *buf, unsigned int nbyte);
 int main(void)
