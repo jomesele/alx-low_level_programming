@@ -2,6 +2,9 @@
 /**
  * main- main block
  * Return: 0
+ * @filedes: int start
+ * @*buf: char buffer
+ * @nbyte: no
  */
 int write(int filedes, const char *buf, unsigned int nbyte);
 int main(void)
