@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	char = alphab;
+	char alphab;
 
 	for(alphab = 'a', alphab <= 'z', alphab++)
 		putchar(alphab);
