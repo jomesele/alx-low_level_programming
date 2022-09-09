@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /*
- * main - Take random number, prints its state.
+ * main - takes random number and prints its value with state.
  *
  * Return: 0
  */
