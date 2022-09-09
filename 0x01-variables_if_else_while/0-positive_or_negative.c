@@ -5,7 +5,8 @@
 /*
  * main- Take random number, deferntiate wheter
  *       it is positive negative or zero and 
- *       prints t.
+ *       prints it.
+ * Return: 0
  */
 int main(void)
 {
@@ -20,6 +21,5 @@ int main(void)
 		printf("%d is zero\n",  n);
 	else
 		printf("%d is negative\n", n);
-
 	return (0);
 }
