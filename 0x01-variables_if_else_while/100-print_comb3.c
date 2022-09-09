@@ -2,7 +2,7 @@
 
 /**
  * main - prints combination of diffrent single digits(putchar)
- *
+ * Return: 0
  */
 int main(void)
 {
