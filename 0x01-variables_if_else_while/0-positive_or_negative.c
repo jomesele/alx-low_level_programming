@@ -1,8 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
+#include <stdio.h>
 
-/* betty style doc function main goes there */
+/*
+ * main- Take random number, deferntiate wheter
+ *       it is positive negative or zero and 
+ *       prints t.
+ */
 int main(void)
 {
 	int n;
@@ -11,11 +15,11 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
 	if (n > 0)
-		printf("%d is positive", n);
+		printf("%d is positive\n", n);
 	else if (n == 0)
-		printf("%d is zero",  n);
+		printf("%d is zero\n",  n);
 	else
-		printf("%d is negative", n);
+		printf("%d is negative\n", n);
 
 	return (0);
 }
