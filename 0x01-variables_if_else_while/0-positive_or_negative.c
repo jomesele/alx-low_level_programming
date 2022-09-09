@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /*
- * main- Take random number, deferntiate wheter
+ * main - Take random number, deferntiate wheter
  *       it is positive negative or zero and 
  *       prints it.
  *
