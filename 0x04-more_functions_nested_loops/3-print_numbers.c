@@ -1,16 +1,16 @@
 #include "main.h"
 
 /**
- * print_numbers - prints numbers from 0 to 9
+ * print_numbers - prints numbers 
+ *
  */
 void print_numbers(void)
 {
-	int i = 0;
+	int num;
 
-	while (i <= 9)
+	for (num = 0; num <= 9; num++)
 	{
-		_putchar(i + '0');
-		++i;
+		_putchar(num);
 	}
 	_putchar('\n');
 }
