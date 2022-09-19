@@ -1,9 +1,9 @@
 #include "pro.h"
 
 /**
- * _strcpy - Copies a string pointed by @scr, including the terminating null byte
+ * _strcpy - Copies a string pointed by @scr
  * @dest: A buffer to copy the string to
- * @scr: The source string to copy
+ * @src: The source string to copy
  *
  * Return: A pointer to the destination string dest
  */
