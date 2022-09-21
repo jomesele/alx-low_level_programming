@@ -4,17 +4,15 @@
  * string_toupper - change lowercase alphabet to uppercase
  * @s: string to be changed
  * 
- * @Return: s
+ * @Return: i
  */
 char *string_toupper(char *s)
 {
-	int i;
+	char *i = str;
 
-	for (i = 0; s[i] != '\0'; i++)
-	{
-		if (s[i] >= 'a' && s[i] <= 'z')
-			s[i] = s[i] - 32;
-	}
-
-	return (s);
+	for (; *str != '\0'; str++)
+		if (*str >= 97 && *str <= 122)
+			*str -= 32;
+	
+	return (i);
 }
